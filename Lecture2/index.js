@@ -1,3 +1,24 @@
+let totalPrice = 5000;
+let accountBalance = 4000;
+const isVip = false;
+
+if (isVip === true){
+    totalPrice = totalPrice - totalPrice/10
+}
+
+console.log(totalPrice)
+
+if (accountBalance >= totalPrice){
+    console.log('"Успешно! Покупка сделана".')
+} else{
+    console.log("Недостаточно средств")
+}
+
+
+
+
+
+
 //const serverPort = 3000;
 //serverPort = 2000;
 
@@ -10,7 +31,7 @@
 //concst strtbs = 14 + '18';
 //will be printed 1418
 
-const age = "18";
+// const age = "18";
 
 //if (age >= 18) {
 //    console.log("Доступ разрешен")
@@ -20,8 +41,8 @@ const age = "18";
 
 //difference between == and ===
 
-if (age == 18) {
-    console.log("Доступ разрешен")
-} else{
-    console.log("иди домой")
-}
+// if (age == 18) {
+//     console.log("Доступ разрешен")
+// } else{
+//     console.log("иди домой")
+// }
